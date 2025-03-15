@@ -53,6 +53,12 @@ main {
     overflow: hidden;
 }
 
-h2{
-font-family: Metropolis-Bold !important;
+a{
+ color: white;
+ text-decoration: none;
+ transition: 300ms;
+}
+
+a:hover{
+    color: black; 
 }
