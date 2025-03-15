@@ -53,12 +53,12 @@ main {
     overflow: hidden;
 }
 
-a{
- color: white;
+a {
+ color: white !important;
  text-decoration: none;
  transition: 300ms;
 }
 
-a:hover{
-    color: black; 
+a:hover {
+    color: black !important; 
 }

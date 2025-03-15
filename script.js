@@ -59,3 +59,4 @@ document.getElementById("contact-form").addEventListener("submit", function (eve
 import "@fontsource/metropolis"; // Defaults to weight 400
 import "@fontsource/metropolis/400.css"; // Specify weight
 import "@fontsource/metropolis/400-italic.css"; // Specify weight and style
+import "@fontsource/metropolis/700.css"; // Bold font
