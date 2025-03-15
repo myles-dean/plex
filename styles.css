@@ -52,3 +52,7 @@ main {
     max-height: 1200px;
     overflow: hidden;
 }
+
+h2{
+font-family: Metropolis-Bold !important;
+}
