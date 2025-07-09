@@ -136,7 +136,7 @@
 }
 
 .div-block-3 {
-  width: 45px;
+  width: 60px;
   margin-top: 2em;
 }
 
@@ -167,7 +167,7 @@
 
 .sub-text {
   opacity: .3;
-  text-align: justify;
+  text-align: center;
   margin-top: 2em;
   margin-bottom: 0;
   font-weight: 300;
@@ -478,13 +478,28 @@
   display: flex;
 }
 
+.image {
+  border-radius: 500px;
+}
+
 @media screen and (max-width: 767px) {
+  .section-resource.is--orange, .section-resource.is--yellow, .section-resource.is--blue {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
   .transition {
     grid-template-columns: repeat(6, 1fr);
   }
 }
 
 @media screen and (max-width: 479px) {
+  .full-page-container {
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 4em;
+  }
+
   .copy-email-text__wrap {
     font-size: 1em;
   }
