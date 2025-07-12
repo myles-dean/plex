@@ -87,8 +87,10 @@
 }
 
 .button:focus {
+  outline-color: var(--dark-orange);
   outline-offset: 2px;
-  outline: 1px solid #83f;
+  outline-width: 1px;
+  outline-style: solid;
 }
 
 .body {
@@ -301,8 +303,10 @@
 }
 
 .button-2:focus {
+  outline-color: var(--purple);
   outline-offset: 2px;
-  outline: 1px solid #83f;
+  outline-width: 1px;
+  outline-style: solid;
 }
 
 .code-block {
@@ -520,8 +524,10 @@
 }
 
 .button-3:focus {
+  outline-color: var(--dark-orange);
   outline-offset: 2px;
-  outline: 1px solid #83f;
+  outline-width: 1px;
+  outline-style: solid;
 }
 
 .iframe {
